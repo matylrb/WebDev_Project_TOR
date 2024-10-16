@@ -4,6 +4,13 @@
     padding:0;
 
 }
+
+@font-face {
+
+    font-family:strongyoung;
+    src: url('/fonts/StrongYoung.ttf');
+
+}
 ::-webkit-scrollbar{
 
     display: none;
@@ -58,6 +65,10 @@ html,body{
     
 }
 
+.backgorund_image{
+    background-size: auto;
+}
+
 .image_container{
     height: 95%;
     width: 100%;
@@ -65,18 +76,26 @@ html,body{
 
 }
 
+
 .image_container img{
     width: 100%;
     height: 100%;
 }
 
 #section2{
-
+    font-family:strongyoung;
     height: 100%;
     width: 100%;
     text-align: center;
     background-color: chocolate;
 }
+
+.heading h1{
+    font-family:strongyoung;
+}
+
+
+
 
 #section3{
 
@@ -122,6 +141,3 @@ html,body{
     background-color: burlywood;
 
 }
-
-
-
