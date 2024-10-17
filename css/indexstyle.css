@@ -93,17 +93,24 @@ html,body{
 
 
 #section2{
-    font-family:strongyoung;
+
     height: 100%;
     width: 100%;
-    text-align: center;
-    background-color: #d9dde6;
+    background-color:#e4e4e4;
     
 }
 
-#section2_heading1 h1{
+.section2_heading1 h1{
+
+    font-family:strongyoung;
     text-align: center;
     font-size: 50px;
+
+}
+
+.section2_heading2{
+    font-family:strongyoung;
+    text-align: center;
 }
 
 
@@ -116,17 +123,121 @@ html,body{
     height: 100%;
     width: 100%;
     text-align: center;
-    background-color: aqua;
+    background-color:#c5c5c5;
 }
+
+.section3_heading1 h1{
+    font-family: strongyoung;
+    font-size: 50px;
+}
+
 
 #section4{
 
     height: 100%;
     width: 100%;
     text-align: center;
-    background-color: bisque;
+    background-color: rgb(160, 160, 160);
    
 }
+.section4_heading1 h1{
+    font-family: strongyoung;
+    font-size: 50px;
+}
+.section4_about_button a {
+    
+    font-family:Helvetica;
+    font-size: 12px;
+    width: 80px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 550;
+    color: #000000;
+    position: relative;
+    z-index: 1;
+
+
+
+
+}
+.section4_about_button a span{
+    width: 0.01%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: -1;
+    transition: 0.5s;
+    
+  
+    
+}
+.section4_about_button a:hover span{
+    width: 100%;
+    height: 100%;
+    
+}
+.section4_about_button a:hover {
+    color: black;
+}
+
+
+
+
+#section5{
+    height:100%;
+    width: 100%;
+    background-color: rgb(138, 137, 136);
+    text-align: center;
+
+}
+
+.section5_heading1 h1{
+
+    font-family:strongyoung;
+    font-size: 50px;
+    text-align: center;
+}
+
+.section5_contact_button a {
+  
+    align-items: center;
+    font-family:Helvetica;
+    font-size: 12px;
+    width: 80px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 550;
+    color: #000000;
+    position: relative;
+    z-index: 1;
+
+}
+.section5_contact_button a span{
+    width: 0.01%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: -1;
+    transition: 0.5s;
+    
+  
+    
+}
+.section5_contact_button a:hover span{
+    width: 100%;
+    height: 100%;
+    
+}
+.section5_contact_button a:hover {
+    color: black;
+}
+
+
+
 
 .return_to_top{
 
@@ -145,13 +256,5 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-#contactandmoreinfo{
-    text-align: center;
-    height:50% ;
-    width: 100%;
-    background-color: burlywood;
 
 }
