@@ -1,0 +1,295 @@
+*{
+    
+    margin:0;
+    padding:0;
+
+}
+@font-face {
+
+    font-family:strongyoung;
+    src: url('/fonts/StrongYoung.ttf');
+
+}
+::-webkit-scrollbar{
+
+    display: none;
+
+}
+html,body{
+
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+
+/*start of navigation*/
+.navigation_bar ul{
+    
+    list-style-type: none;
+    height: 5vh;
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+   
+}
+.navigation_bar a{
+
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 25px;
+    padding: 5px;
+    display: block;
+
+    
+    
+
+}
+.navigation_bar a:hover{
+
+    background-color: rgba(191, 195, 198, 0.5);
+    border-radius: 5%;
+
+}
+.navigation_bar li{
+
+    float:left;
+
+}/*end of navigation bar*/
+
+
+/*start of hero section */
+.main{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(/media/michele-orallo-ChenIO61cgE-unsplash.jpg);
+  
+}
+.main_container{
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+   
+ 
+}
+
+.main_content h1{
+    font-family:strongyoung;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 100px;
+    font-weight: 1;
+    font-family:strongyoung;
+}/*end of hero section*/
+
+
+/*start of destinations section*/
+.destinations{
+    background-color: rgb(198, 198, 197);
+    height: 100%;
+    width: 100%;
+}
+
+.destinations_container{
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+
+
+}
+.destinations_content h1{
+    font-size: 100px;
+    font-weight: 1;
+    font-family:strongyoung;
+}
+/*end of destinations section*/
+
+
+
+
+/*start of clients stories section*/
+.clients_stories{
+    background-color: rgb(180, 180, 180);
+    height: 1500px;
+    width: 100%;
+}
+
+.client_stories_container{
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+
+
+}
+.client_stories_content h1{
+    font-size: 50px;
+    font-weight: 1;
+    font-family:strongyoung;
+}
+
+.skifamily{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 640px;
+    height: 400px;
+
+}
+
+.skifamily img{
+    width: 100%;
+    height: 100%;
+   
+}
+/*end of client stories section*/
+
+/*start of about section*/
+.about{
+    background-color: rgb(166, 166, 166);
+    height: 100%;
+    width: 100%;
+}
+
+.about_container{
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+
+
+}
+
+.about_content h1{
+    font-size: 50px;
+    font-weight: 1;
+    font-family:strongyoung;
+}
+
+.about_button a {
+  
+    align-items: center;
+    font-family:Helvetica;
+    font-size: 12px;
+    width: 80px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 550;
+    color: #000000;
+    position: relative;
+    z-index: 1;
+
+}
+
+.about_button a span{
+    width: 0.01%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: -1;
+    transition: 0.5s;
+    
+  
+    
+}
+.about_button a:hover span{
+    width: 100%;
+    height: 100%;
+    
+}
+.about_button a:hover {
+    color: black;
+}/*end of about section*/
+
+
+/*start of contact section*/
+.contact{
+    background-color: rgb(135, 135, 135);
+    height: 50%;
+    width: 100%;
+}
+
+.contact_container{
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+
+
+}
+
+.contact_content h1{
+    font-size: 50px;
+    font-weight: 1;
+    font-family:strongyoung;
+}
+
+.contact_button a {
+  
+    align-items: center;
+    font-family:Helvetica;
+    font-size: 12px;
+    width: 80px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 550;
+    color: #000000;
+    position: relative;
+    z-index: 1;
+
+}
+.contact_button a span{
+    width: 0.01%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: -1;
+    transition: 0.5s;
+    
+  
+    
+}
+.contact_button a:hover span{
+    width: 100%;
+    height: 100%;
+    
+}
+.contact_button a:hover {
+    color: black;
+}/*end of contact section*/
+
+.return_to_top{
+
+    font-weight: 100;        
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, 1000%);
+    transform: translate(-50%, 1000%);
+    border-radius: 30%;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    background:#000000;
+    border: 1.4px solid#000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
