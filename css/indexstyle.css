@@ -41,7 +41,7 @@ html,body{
 }
 .navigation_bar a{
 
-    font-size: 20px;
+    font-size: 1.5rem;
     color: #000000;
     text-decoration: none;
     margin-right: 25px;
@@ -73,8 +73,7 @@ html,body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-image: url(/media/michele-orallo-ChenIO61cgE-unsplash.jpg);
-  
+
 }
 .main_container{
     text-align: center;
@@ -98,7 +97,7 @@ html,body{
 
 /*start of destinations section*/
 .destinations{
-    background-color: rgb(198, 198, 197);
+    background-color: rgb(255, 255, 255);
     height: 100%;
     width: 100%;
 }
@@ -122,7 +121,7 @@ html,body{
 
 /*start of clients stories section*/
 .clients_stories{
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(255, 255, 255);
     height: 1500px;
     width: 100%;
 }
@@ -160,7 +159,7 @@ html,body{
 
 /*start of about section*/
 .about{
-    background-color: rgb(166, 166, 166);
+    background-color: rgb(255, 255, 255);
     height: 100%;
     width: 100%;
 }
@@ -183,8 +182,11 @@ html,body{
   
     align-items: center;
     font-family:Helvetica;
-    font-size: 12px;
-    width: 80px;
+    font-size: 20px;
+    width: 90px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     display: inline-block;
     font-weight: 550;
@@ -219,7 +221,7 @@ html,body{
 
 /*start of contact section*/
 .contact{
-    background-color: rgb(135, 135, 135);
+    background-color: rgb(255, 255, 255);
     height: 50%;
     width: 100%;
 }
@@ -242,8 +244,9 @@ html,body{
   
     align-items: center;
     font-family:Helvetica;
-    font-size: 12px;
-    width: 80px;
+    font-size: 20px;
+    width: 90px;
+    height: 90px;
     text-decoration: none;
     display: inline-block;
     font-weight: 550;
@@ -293,4 +296,7 @@ html,body{
     align-items: center;
 
 }
-
+.return_to_top_text{
+    font-family: strongyoung;
+    color: rgb(255, 255, 255);
+}
