@@ -29,3 +29,11 @@ html,body{
 h1{
     font-family:strongyoung;
 }
+
+.hero_content h1{
+    text-align: center;
+}
+.user_form_content p
+{
+    font-family: strongyoung;
+}
