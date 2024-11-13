@@ -6,8 +6,8 @@
 }
 @font-face {
 
-    font-family:strongyoung;
-    src: url('/fonts/StrongYoung.ttf');
+    font-family:consola;
+    src: url('/fonts/Consola.ttf');
 
 }
 ::-webkit-scrollbar{
@@ -84,14 +84,14 @@ html,body{
 }
 
 .main_content h1{
-    font-family:strongyoung;
+    font-family:consola;
     display:flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     font-size: 100px;
     font-weight: 1;
-    font-family:strongyoung;
+    font-family:consola;
 }/*end of hero section*/
 
 
@@ -112,7 +112,7 @@ html,body{
 .destinations_content h1{
     font-size: 100px;
     font-weight: 1;
-    font-family:strongyoung;
+    font-family:consola;
 }
 /*end of destinations section*/
 
@@ -136,7 +136,7 @@ html,body{
 .client_stories_content h1{
     font-size: 50px;
     font-weight: 1;
-    font-family:strongyoung;
+    font-family:consola;
 }
 
 .skifamily{
@@ -175,7 +175,7 @@ html,body{
 .about_content h1{
     font-size: 50px;
     font-weight: 1;
-    font-family:strongyoung;
+    font-family:consola;
 }
 
 .about_button a {
@@ -184,7 +184,6 @@ html,body{
     font-family:Helvetica;
     font-size: 20px;
     width: 90px;
-    height: 90px;
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -198,7 +197,6 @@ html,body{
 
 .about_button a span{
     width: 0.01%;
-    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -237,7 +235,7 @@ html,body{
 .contact_content h1{
     font-size: 50px;
     font-weight: 1;
-    font-family:strongyoung;
+    font-family:consola;
 }
 
 .contact_button a {
@@ -246,7 +244,6 @@ html,body{
     font-family:Helvetica;
     font-size: 20px;
     width: 90px;
-    height: 90px;
     text-decoration: none;
     display: inline-block;
     font-weight: 550;
@@ -255,9 +252,9 @@ html,body{
     z-index: 1;
 
 }
+
 .contact_button a span{
     width: 0.01%;
-    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -297,6 +294,6 @@ html,body{
 
 }
 .return_to_top_text{
-    font-family: strongyoung;
+    font-family: consola;
     color: rgb(255, 255, 255);
 }
