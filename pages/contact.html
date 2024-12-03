@@ -3,72 +3,47 @@
 <head>
     <link rel="stylesheet" href="/css/contactstyle.css">
     <meta charset="UTF-8" />
-    <title>title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
 </head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <body>
-    <div class="hero">
+    <div role="radiogroup" aria-labelledby="size" id="rg1" class="hero">
         <div class="hero_container">
             <div class="hero_content">
                 <h1>Contact Options</h1>
-                <img src = "photo-1680136938668-77ebbe121787.avif" alt="">
-
+                <img src="photo-1680136938668-77ebbe121787.avif" alt="Contact Options">
             </div>
         </div>
     </div>
 
-    <div class="user_form">
+    <div role="radiogroup" aria-labelledby="size" id="rg1" class="user_form">
         <div class="user_form_container">
             <div class="user_form_content">
                 <p>
                     Our phone number: 01 111 1111 <br>
                     Our Email: MisterSnowsSnowboarding@gmail.com
                 </p> 
-                
             </div>
         </div>
     </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    Our phone number: 01 111 1111 <br>
-    Our Email: MisterSnowsSnowboarding@gmail.com
-    <br><br>
+
     <h2>Submit a Query</h2>
-    <form> 
-    Name:<br>
-    <input type="text">
-    </form>
-    
-    <form> 
-    Phone number:<br>
-    <input type="text">
+    <form id="contactForm"> 
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="phone">Phone number:</label><br>
+        <input type="text" id="phone" name="phone"><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="text" id="email" name="email"><br>
+
+        <label for="query">Query:</label><br>
+        <input type="text" id="query" name="query"><br><br>
+
+        <input type="submit" value="Submit">
     </form>
 
-    <form> 
-        Email Address:<br>
-        <input type="text">
-        </form>
-        
-    <form> 
-    Query:<br><input type="text">
-    </form>   
-    
-    <br><input type="submit">
+    <script src="/javascript/contactjava.js"></script>
 </body>
 </html>
