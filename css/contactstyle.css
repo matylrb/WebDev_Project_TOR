@@ -38,9 +38,18 @@ h1{
     font-family: strongyoung;
 }
 
+
+
 .querybox input
 {
     width: 500px;
     height: 100px;
     border-style:dotted;
+}
+.error-message {
+    color: red;
+    font-size: 0.9em;
+}
+.hidden {
+    display: none;
 }

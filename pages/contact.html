@@ -28,18 +28,28 @@
     </div>
 
     <h2>Submit a Query</h2>
-    <form id="contactForm"> 
+    <form id="contactForm" action="/submit-query" method="POST">
+
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name"><br>
 
         <label for="phone">Phone number:</label><br>
         <input type="text" id="phone" name="phone"><br>
+        <span id ="phone_error" class="error-message hidden" aria-live="polite">
+            Enter a valid phone number<br>
+        </span>
 
-        <label for="email">Email Address:</label><br>
-        <input type="text" id="email" name="email"><br>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" aria-describedby="emailError" required>
+        <span id="emailError" class="error-message hidden" aria-live="polite">
+          Please enter a valid email address.
+        </span>
 
-        <label for="query">Query:</label><br>
-        <input type="text" id="query" name="query"><br><br>
+        <div class="querybox">
+            Query:<br>
+            <input type="text" id="query" name="query"><br><br>
+        </div>
+    
 
         <input type="submit" value="Submit">
     </form>
