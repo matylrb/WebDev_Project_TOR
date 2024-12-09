@@ -138,6 +138,43 @@ html,body{
     font-weight: 1;
     font-family:consola;
 }
+.offers_button a {
+  
+    align-items: center;
+    font-family:Helvetica;
+    font-size: 20px;
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 550;
+    color: #000000;
+    position: relative;
+    z-index: 1;
+
+}
+
+.offers_button a span{
+    width: 0.01%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: -1;
+    transition: 0.5s;
+    
+  
+    
+}
+.offers_button a:hover span{
+    width: 100%;
+    height: 100%;
+    
+}
+.offers_button a:hover {
+    color: black;
+}
 /*end of destinations section*/
 
 
